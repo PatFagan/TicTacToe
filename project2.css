@@ -1,0 +1,43 @@
+.cool {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    font: verdana;
+    background-color: rgb(58, 83, 221);
+}
+
+@media screen and (max-width: 600px) {
+    .cool {
+        color: white;
+        font-size: 14vw;
+        text-align: center;
+        font: verdana;
+        background-color:rgb(58, 83, 221);
+    }
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 64px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .btn:hover {background: #eee;}
+  
+  .blank {color: rgb(255, 255, 255);}
+  .x {color: rgb(61, 113, 255);}
+  .o {color: rgb(255, 86, 86);}
+  .win {color: rgb(108, 255, 120);}
+  .ui {color: rgb(145, 145, 145);}
+
+table, th, td {
+        border: 1px solid black;
+        border-color: rgb(53, 45, 0);
+    }
+    body {
+        background-color: rgb(58, 83, 221);
+        background-size: 875px 663px;
+    }
